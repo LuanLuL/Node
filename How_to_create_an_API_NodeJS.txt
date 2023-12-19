@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to create an API Node.js
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1 - To create an API Node.js it's necessary to create your first file: "server.js"
+2 - Then, to you run the 'server.js' you have to a new file: "package.json" 
+3 - To create the file 'package.json' just run the comand "node init -y" on terminal 
+4 - If you want, you can add an script to make the starts more easy at the 'package.json' -> "dev": "node --watch --no-warnings server.js"
+5 - After, you must install the micro-framework "fastify" to create the API
+6 - To install the fastify just run the comand "node install fastify" on terminal
+7 - You start the API with -> "npm run dev" (needs to add the script)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to use the API to make a CRUD(Create, Read, Update and Delete)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+Methods: post(Create), get(Read), put(Update) and delete(Delete)
+
+The routes is going to be the way as the API does your functionalities  
